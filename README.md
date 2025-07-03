@@ -24,15 +24,6 @@
 | **Reset-Digital Base Template** | Opinionated Next.js starter with Storybook, Prisma, ESLint and CI/CD—used as the foundation for multiple client projects. |
 | **ResetDigital Prebid Adapter** | Go adapter that integrates Reset Digital demand into the open-source Prebid Server, complete with unit tests and CI workflows. |
 
----
-
-### 📈 GitHub Stats <sup>(auto-generated)</sup>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ValentinoRota&show_icons=true&theme=default" alt="Valentino's GitHub stats" />  
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ValentinoRota&layout=compact" alt="Top Langs" />
-</p>
-
----
 
 ### 🌱 Currently Learning / Next Up
 - [ ] Deepening my **Go** concurrency skills for high-throughput back-ends  
