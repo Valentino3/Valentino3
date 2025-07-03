@@ -33,9 +33,8 @@
 ---
 
 ### 📫 How to reach me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://linkedin.com/in/valentinorota)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&logoColor=white)](https://twitter.com/ValentinoR)
-[![Mail](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:valentino@example.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)]([https://linkedin.com/in/valentinorota](https://www.linkedin.com/in/valentino-rota-005011209/))
+[![Mail](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:valentino.rota@gmail.com)
 
 ---
 
