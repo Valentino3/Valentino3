@@ -1,44 +1,110 @@
-<h1 align="center">Hi there 👋, I'm Valentino</h1>
+<h1 align="center">Valentino Rota</h1>
 
 <p align="center">
-  Front-end Developer @ <strong>Reset Digital</strong> · React · Next.js · MUI · AdTech
+  <strong>Frontend Engineer · AdTech · OpenRTB · Open Source</strong>
+</p>
+
+<p align="center">
+  React · Next.js · TypeScript · Prebid · Go
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/valentino-rota/">LinkedIn</a>
+  ·
+  <a href="https://github.com/prebid/prebid-server/pull/4475">Prebid Server</a>
+  ·
+  <a href="https://github.com/prebid/Prebid.js/pull/14975">Prebid.js</a>
 </p>
 
 ---
 
-### 🛠 Tech Stack
-![React](https://img.shields.io/badge/-React-20232A?logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/-Next.js-000000?logo=next.js)
-![MUI](https://img.shields.io/badge/-MUI-007FFF?logo=mui&logoColor=white)
-![Go](https://img.shields.io/badge/-Go-00ADD8?logo=go)
-![PostgreSQL](https://img.shields.io/badge/-Postgres-4169E1?logo=postgresql&logoColor=white)
+## About
+
+I'm a Frontend Engineer specializing in **React, Next.js, and TypeScript**, building complex B2B and AdTech products used in production.
+
+At **RESET DIGITAL**, I work on DSP and SSP products, reporting and analytics interfaces, campaign workflows, and data-heavy analysis tools. My work is primarily frontend-focused, but frequently extends into APIs, authentication, databases, Dockerized services, CI/CD, and production troubleshooting.
+
+I also contribute to open-source projects in the **Prebid ecosystem**, working on bidder adapters, OpenRTB integrations, and user identity/EID forwarding across client-side and server-side programmatic advertising flows.
+
+I particularly enjoy problems where **product, frontend architecture, data, and engineering** meet — turning technically complex workflows into software that is practical and easy to use.
 
 ---
 
-### 🚀 Featured Projects
-| Project | Description |
-|---------|-------------|
-| **Emotion Analysis System** | Full-stack (Next.js + Prisma) platform that detects 65 emotions and offers dynamic filtering, statistics and visualisations. |
-| **Neuro Sitelist Tool** | React UI & API that builds emotion-based website lists, handling 70 000+ domains with smart pagination and caching. |
-| **Reset-Digital Base Template** | Opinionated Next.js starter with Storybook, Prisma, ESLint and CI/CD—used as the foundation for multiple client projects. |
-| **ResetDigital Prebid Adapter** | Go adapter that integrates Reset Digital demand into the open-source Prebid Server, complete with unit tests and CI workflows. |
+## Open Source
 
+### Prebid Server — ResetDigital: Switch to OpenRTB
 
-### 🌱 Currently Learning / Next Up
-- [ ] Deepening my **Go** concurrency skills for high-throughput back-ends  
-- [ ] Exploring **cloud-native architecture** with AWS, Docker & Terraform  
-- [ ] Advanced **component testing** with Storybook & Jest  
+Contributed the migration of the ResetDigital bidder adapter toward standard **OpenRTB** request and response flows, improving interoperability and simplifying the adapter architecture.
 
----
+**19 commits · 37 files changed · merged upstream**
 
-### 📫 How to reach me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)]([https://linkedin.com/in/valentinorota](https://www.linkedin.com/in/valentino-rota-005011209/))
-[![Mail](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:valentino.rota@gmail.com)
+[View PR #4475 →](https://github.com/prebid/prebid-server/pull/4475)
+
+### Prebid.js — Forward User EIDs
+
+Added OpenRTB-compatible identity forwarding to the ResetDigital bidder adapter, preserving complete EID/UID structures and backwards compatibility while adding unit test coverage for multiple identity providers.
+
+**Merged upstream into Prebid.js**
+
+[View PR #14975 →](https://github.com/prebid/Prebid.js/pull/14975)
 
 ---
 
-<details>
-<summary>🏐 Fun fact</summary>
-When I’m not coding, you’ll find me on the volleyball court playing opposite hitter—spikes and blocks!
-</details>
+## Selected Work
+
+### Stock Tienda
+
+A multi-tenant retail and POS platform built around real operational constraints: inventory, sales, cash management, customer accounts, reporting, offline workflows, restaurant operations, and electronic invoicing.
+
+Some of the engineering work includes:
+
+- Offline-first sales flows with replay, idempotency, local catalogues, and recovery mechanisms
+- Multi-store isolation and role-based authorization
+- Electronic invoicing through Argentina's ARCA WSFEv1 services
+- Inventory, pricing, customer credit, cash reconciliation, and reporting
+- Property-based testing for financial and fiscal invariants
+- Automated production checks, migrations, CI, and end-to-end browser testing
+
+**Stack:** Next.js · React · TypeScript · PostgreSQL · Drizzle ORM · Neon · Vitest · Playwright · fast-check
+
+[View repository →](https://github.com/Valentino3/stock-tienda)
+
+### GN Stock Export
+
+Automation and synchronization tooling for transforming a supplier catalogue into products ready for Tienda Nube.
+
+Handles pricing rules, category and brand mapping, stock snapshots, change detection, CSV/Excel exports, API synchronization, image retries, dry runs, and scheduled Linux deployments.
+
+**Stack:** Python · APIs · CSV/Excel · automation · cron
+
+[View repository →](https://github.com/Valentino3/ztg-stock-export)
+
+---
+
+## Core Stack
+
+<p>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white" />
+</p>
+
+**Frontend:** React · Next.js · TypeScript · JavaScript · MUI · TanStack Table · Redux · Storybook
+
+**Engineering:** REST APIs · SQL · PostgreSQL · Prisma · Drizzle ORM · Docker · CI/CD · GitHub Actions
+
+**AdTech:** OpenRTB · Prebid.js · Prebid Server · DSP / SSP · Programmatic Advertising
+
+**Testing:** Jest · Vitest · Playwright · Storybook · Property-Based Testing
+
+---
+
+## Currently
+
+Building data-heavy product experiences at **RESET DIGITAL** and contributing to the **Prebid / OpenRTB ecosystem**.
+
+I'm especially interested in frontend and software engineering roles involving complex products, data-intensive interfaces, platform engineering, or AdTech.
